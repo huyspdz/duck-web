@@ -1,45 +1,21 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang chủ</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-
-        nav a {
-            color: #4CAF50;
-            text-decoration: none;
-            padding: 10px;
-            display: inline-block;
-            font-size: 18px;
-        }
-
-        nav a:hover {
-            background-color: #ddd;
-            border-radius: 5px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Trang chủ</h1>
-    <nav>
-        <a href="index.html">Trang chủ</a>
-        <a href="about.html">Giới thiệu</a>
-        <a href="contact.html">Liên hệ</a>
-    </nav>
-
-    <p>Chào mừng bạn đến với trang chủ!</p>
-    <div class="gif-container">
-        <img src="https://i.pinimg.com/originals/bd/86/12/bd861200835c26a0baba7f9d3113f1aa.gif" alt="GIF từ Pinterest" />
-        <img src="https://i.pinimg.com/originals/e9/0c/76/e90c76e2d77d6aebb984353e8c62ab50.gif" alt="GIF từ Pinterest" />
+    <div class="container">
+        <h1>Welcome to My Web App</h1>
+        <button id="button1">Show Result 1</button>
+        <button id="button2">Show Result 2</button>
+        <button id="button3">Show Result 3</button>
+        <div id="result" class="result">
+            <!-- Kết quả sẽ hiển thị ở đây -->
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
