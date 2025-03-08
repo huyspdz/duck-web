@@ -3,47 +3,39 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang web đầu tiên của tôi</title>
+    <title>Trang chủ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             color: #333;
+            text-align: center;
             margin: 0;
             padding: 20px;
-            text-align: center;
         }
 
-        h1 {
+        nav a {
             color: #4CAF50;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+            font-size: 18px;
         }
 
-        button {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
+        nav a:hover {
+            background-color: #ddd;
             border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 20px;
-        }
-
-        button:hover {
-            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <h1>Xin chào! Đây là trang web đầu tiên của Huy 😎</h1>
-<h2>Menu</h2>
-<ul>
-    <li><a href="#home">Đúng</a></li>
-    <li><a href="#about">Sai</a></li>
-    <li><a href="#contact">Liên hệ</a></li>
-</ul>
-<h2 id="about">Giới thiệu</h2>
-<p>Đây là phần giới thiệu.</p>
+    <h1>Trang chủ</h1>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="contact.html">Liên hệ</a>
+    </nav>
 
-<a href="#about">Đi tới phần giới thiệu</a>
-    
+    <p>Chào mừng bạn đến với trang chủ!</p>
+</body>
+</html>
