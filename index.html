@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web App</title>
+    <title>Women's Day Celebration</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Web App</h1>
-        <button id="button1">Show Result 1</button>
-        <button id="button2">Show Result 2</button>
-        <button id="button3">Show Result 3</button>
-        <div id="result" class="result">
-            <!-- Kết quả sẽ hiển thị ở đây -->
+        <h1>Happy Women's Day!</h1>
+        <p>Click the button below to reveal a special message:</p>
+        <button id="revealButton">Reveal Message</button>
+        <div id="message" class="message" style="display: none;">
+            <h2>Dear Women,</h2>
+            <p>On this special day, we celebrate your strength, resilience, and beauty. 
+            You are the epitome of grace and courage. Happy Women's Day!</p>
+            <p>Thank you for being you. You are appreciated and loved.</p>
         </div>
     </div>
     <script src="script.js"></script>
