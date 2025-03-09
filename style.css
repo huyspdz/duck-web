@@ -20,6 +20,12 @@ body {
   z-index: 10; /* Ensure button stays on top */
 }
 
+.surprise-gif {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 button {
   background-color: #FFC1E3; /* Soft pastel pink */
   color: white;
