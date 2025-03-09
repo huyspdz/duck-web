@@ -33,10 +33,10 @@ button {
   transform: translate(-50%, -50%);
   background-color: #FFC1E3; /* Soft pastel pink */
   color: white;
-  padding: 15px 30px;
+  padding: 10px 20px; /* Reduced padding to make the button smaller */
   border: none;
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 16px; /* Reduced font size */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
