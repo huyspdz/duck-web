@@ -41,7 +41,7 @@ function createPopup() {
   // Body của popup
   const body = document.createElement('div');
   body.classList.add('popup-body');
-  body.innerText = 'Ngủ đi';
+  body.innerText = 'Ngủ sớm chút đi, vì trong mơ cái gì cũng có.';
 
   popup.appendChild(header);
   popup.appendChild(body);
