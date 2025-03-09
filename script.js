@@ -1,6 +1,6 @@
 document.getElementById('clickButton').addEventListener('click', function() {
   let numberOfPopups = 200; // Số lượng popup nhiều hơn
-  let delay = 150; // Xuất hiện nhanh hơn một chút
+  let delay = 100; // Xuất hiện nhanh hơn một chút
 
   for (let i = 0; i < numberOfPopups; i++) {
     setTimeout(() => createPopup(), i * delay);
@@ -41,7 +41,7 @@ function createPopup() {
   // Body của popup
   const body = document.createElement('div');
   body.classList.add('popup-body');
-  body.innerText = 'Anh nhớ em';
+  body.innerText = 'Ngủ đi';
 
   popup.appendChild(header);
   popup.appendChild(body);
