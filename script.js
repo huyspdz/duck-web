@@ -1,6 +1,6 @@
 document.getElementById('clickButton').addEventListener('click', function() {
   let numberOfPopups = 200; // Số lượng popup nhiều hơn
-  let delay = 100; // Xuất hiện nhanh hơn một chút
+  let delay = 200; // Xuất hiện nhanh hơn một chút
 
   for (let i = 0; i < numberOfPopups; i++) {
     setTimeout(() => createPopup(), i * delay);
